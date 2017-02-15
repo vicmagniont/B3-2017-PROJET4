@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Pollinisation des abeilles</title>
+<link rel="icon" href="images/beecone.png" />
+
+
+<link rel="stylesheet" href="styles/main.css">
+<link rel="stylesheet" href="styles/typo.css">
+<link href="https://fonts.googleapis.com/css?family=Nunito:700" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>
+	$(document).ready(function() {
+		$('.js-scrollTo').on('click', function() { // Au clic sur un élément
+			var page = $(this).attr('href'); // Page cible
+			var speed = 750; // Durée de l'animation (en ms)
+			$('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
+			return false;
+		});
+	});
+</script>
+
+
+</head>
+
+<body>
+  <a href="video02.html"><image id =retour class=leftmenu src="images/retour.svg" alt="Retour"/></a>
+  <a href="video04.html"><image id =avance class=leftmenu src="images/avance.svg" alt="Avance"/></a>
+  <a href="video01.html"><div id=r1 class=rightmenu><h4>1<h4></div></a>
+  <a href="video02.html"><div id=r2 class=rightmenu><h4>2<h4></div></a>
+  <div id=r3 class=active><h4>3<h4></div>
+  <a href="video04.html"><div id=r4 class=rightmenu><h4>4<h4></div></a>
+
+<div class=title id=title03>
+    <h1> Pollinisation des abeilles </h1>
+    <h2> Partie 03 </h2>
+  <a href="#text03" class="js-scrollTo"><div class=next id=next01>
+    <img src="images/telecharger.svg" alt="next">
+  </div></a>
+</div>
+
+  <div class=text id=text03>
+<h1> L'abeille butine</h1>
+    <p> Lorsqu'une abeille recueille du nectar et du pollen de la fleur d'une plante, une partie du pollen des étamines — l'organe reproducteur mâle de la fleur — colle aux poils de son corps. Lorsqu'elle se pose sur une autre fleur, une partie du pollen se dépose sur le stigmate ou sur le bout du pistil — l'organe reproducteur femelle de la fleur. Lorsque cela se produit, la fécondation est possible, et un fruit, portant des graines, peut se développer.</p>
+        <a href="#videoban03" class="js-scrollTo"><div class=next id=next02>
+      <img src="images/telecharger.svg" alt="next">
+    </div></a>
+  </div>
+
+  <div class=videoban id=videoban03>
+    <h3>Vidéo 03</h3>
+  </div>
+
+  <video id=video04 src="video/video03.MOV" controls poster="video/poster03.jpg">
+    <p>Your browser doesn't support HTML5 video. Here is a <a href="video/video03.MOV">link to the video</a> instead.</p>
+  </video>
+<div id=buttons>
+      <a href="video02.html"><image id =retour01 class=leftmenu src="images/retour.svg" alt="Retour"/></a>
+    <a href="video/video03.MOV"><div class=download>
+    <img src="images/sauvegarder.svg" alt="next">
+  </div>
+</a>
+    <a href="video04.html"><image id =avance01 class=leftmenu src="images/avance.svg" alt="Avance"/></a>
+  </div>
+
+
+</body>
+
+</html>
