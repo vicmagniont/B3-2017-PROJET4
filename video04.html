@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Pollinisation des abeilles</title>
+<link rel="icon" href="images/beecone.png" />
+
+<link rel="stylesheet" href="styles/main.css">
+<link rel="stylesheet" href="styles/typo.css">
+<link href="https://fonts.googleapis.com/css?family=Nunito:700" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+<script>
+	$(document).ready(function() {
+		$('.js-scrollTo').on('click', function() { // Au clic sur un élément
+			var page = $(this).attr('href'); // Page cible
+			var speed = 750; // Durée de l'animation (en ms)
+			$('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
+			return false;
+		});
+	});
+  </script>
+
+</head>
+
+<body>
+  <a href="video03.html"><image id =retour class=leftmenu src="images/retour.svg" alt="Retour"/></a>
+  <a href="video01.html"><image id =avance class=leftmenu src="images/avance.svg" alt="Avance"/></a>
+  <a href="video01.html"><div id=r1 class=rightmenu><h4>1<h4></div></a>
+  <a href="video02.html"><div id=r2 class=rightmenu><h4>2<h4></div></a>
+  <a href="video03.html"><div id=r3 class=rightmenu><h4>3<h4></div></a>
+  <div id=r4 class=active><h4>4<h4></div>
+
+<div class=title id=title04>
+    <h1> Pollinisation des abeilles </h1>
+    <h2> Partie 04 </h2>
+    <a href="#text04" class="js-scrollTo"><div class=next id=next01>
+    <img src="images/telecharger.svg" alt="next">
+  </div></a>
+</div>
+
+  <div class=text id=text04>
+<h1>Retour à la ruche</h1>
+    <p> Lorsque l'abeille a récolté assez de nectare (et donc ainsi pollinisé un nombre conséquent de plantes par la même occasion), elle rentre à la ruche. S'en vient alors un autre processus, celui de création du miel.</p>
+        <a href="#videoban04" class="js-scrollTo"><div class=next id=next02>
+      <img src="images/telecharger.svg" alt="next">
+    </div></a>
+  </div>
+
+  <div class=videoban id=videoban04>
+    <h3>Vidéo 04</h3>
+  </div>
+
+  <video id=video04 src="video/video04.mp4" controls poster="video/poster04.jpg">
+    <p>Your browser doesn't support HTML5 video. Here is a <a href="video/video04.mp4">link to the video</a> instead.</p>
+  </video>
+<div id=buttons>
+      <a href="video03.html"><image id =retour01 class=leftmenu src="images/retour.svg" alt="Retour"/></a>
+    <a href="video/video04.mp4"><div class=download>
+    <img src="images/sauvegarder.svg" alt="next"></a>
+  </div>
+    <a href="video01.html"><image id =avance01 class=leftmenu src="images/avance.svg" alt="Avance"/></a>
+  </div>
+
+
+</body>
+
+</html>

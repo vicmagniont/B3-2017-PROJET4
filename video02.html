@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Pollinisation des abeilles</title>
+<link rel="icon" href="images/beecone.png" />
+
+
+<link rel="stylesheet" href="styles/main.css">
+<link rel="stylesheet" href="styles/typo.css">
+<link href="https://fonts.googleapis.com/css?family=Nunito:700" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>
+	$(document).ready(function() {
+		$('.js-scrollTo').on('click', function() { // Au clic sur un élément
+			var page = $(this).attr('href'); // Page cible
+			var speed = 750; // Durée de l'animation (en ms)
+			$('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
+			return false;
+		});
+	});
+  </script>
+
+
+
+</head>
+
+<body>
+  <a href="video01.html"><image id =retour class=leftmenu src="images/retour.svg" alt="Retour"/></a>
+  <a href="video03.html"><image id =avance class=leftmenu src="images/avance.svg" alt="Avance"/></a>
+  <a href="video01.html"><div id=r1 class=rightmenu><h4>1<h4></div></a>
+  <div id=r2 class=active><h4>2<h4></div>
+  <a href="video03.html"><div id=r3 class=rightmenu><h4>3<h4></div></a>
+  <a href="video04.html"><div id=r4 class=rightmenu><h4>4<h4></div></a>
+
+<div class=title id=title02>
+    <h1> Pollinisation des abeilles </h1>
+    <h2> Partie 02 </h2>
+  <a href="#text02" class="js-scrollTo"><div class=next id=next01>
+    <img src="images/telecharger.svg" alt="next">
+  </div></a>
+</div>
+
+  <div class=text id=text02>
+    <h1> Le Pollen </h1>
+    <p>Le pollen (du grec πάλη (palè) : farine ou poussière) constitue, chez les végétaux supérieurs, l'élément fécondant mâle de la fleur : ce sont de minuscules grains de forme plus ou moins ovoïde de quelques dizaines de micromètres de diamètre, initialement contenus dans l'anthère à l'extrémité des étamines.</p>
+    <a href="#videoban02" class="js-scrollTo"><div class=next id=next02>
+      <img src="images/telecharger.svg" alt="next">
+    </div></a>
+  </div>
+
+  <div class=videoban id=videoban02>
+    <h3>Vidéo 02</h3>
+  </div>
+
+  <video id=video02 src="video/video02.mp4" controls poster="video/poster02.jpg">
+    <p>Your browser doesn't support HTML5 video. Here is a <a href="video/rabbit320.mp4">link to the video</a> instead.</p>
+  </video>
+<div id=buttons>
+      <a href="video01.html"><image id =retour01 class=leftmenu src="images/retour.svg" alt="Retour"/></a>
+    <a href="video/video02.mp4"><div class=download>
+    <img src="images/sauvegarder.svg" alt="next"></a>
+  </div>
+    <a href="video03.html"><image id =avance01 class=leftmenu src="images/avance.svg" alt="Avance"/></a>
+  </div>
+
+
+</body>
+
+</html>

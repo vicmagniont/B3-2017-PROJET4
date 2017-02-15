@@ -1,0 +1,304 @@
+body{
+  margin: 0
+}
+
+ol{
+  display: flex;
+  flex-wrap: wrap;
+justify-content: center;
+}
+
+li{
+  max-width : 200px;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  margin: 20px;
+  box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.12),0px 2px 2px 0px rgba(0,0,0,0.24);
+}
+li:hover{
+  max-width : 200px;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  margin: 20px;
+  box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.12),0px 8px 8px 0px rgba(0,0,0,0.24);
+  transition: 0.2s
+}
+
+li img{
+  width: 100%
+}
+li {
+  list-style: none;
+}
+#blue{
+  background-color: #68e4ea
+}
+#pink{
+  background-color: #efbddc
+}
+#grey{
+  background-color: #cecece
+}
+#yellow{
+  background-color: #fdffab
+}
+#green{
+  background-color: #53f5ae
+}
+
+
+.active h4{
+filter:grayscale(100);
+filter: invert(100);
+}
+
+
+
+.section00 li{
+  display: flex;
+  height: 200px;
+  vertical-align: middle;
+  align-items: center;
+  justify-content: center;
+}
+video{
+  width :45vw;
+  box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.12),0px 2px 2px 0px rgba(0,0,0,0.24);
+  margin: none
+}
+video:hover{
+  box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.12),0px 8px 8px 0px rgba(0,0,0,0.24);
+  transition: 0.2s;
+
+}
+input:hover{
+}
+#retour{
+  width: 100px;
+  position: fixed;
+  left: 20px;
+  top: 20px;
+  background-color: #cecece;
+  border-radius: 50px;
+  box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.12),0px 2px 2px 0px rgba(0,0,0,0.24);
+}
+#retour:hover{
+  box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.12),0px 8px 8px 0px rgba(0,0,0,0.24);
+  transition: 0.2s;
+  }
+.next:hover{
+  box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.12),0px 8px 8px 0px rgba(0,0,0,0.24);
+  transition: 0.2s;
+}
+
+#avance{
+  width: 100px;
+  position: fixed;
+  left: 140px;
+  top: 20px;
+  background-color: #cecece;
+  border-radius: 50px;
+  box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.12),0px 2px 2px 0px rgba(0,0,0,0.24);
+}
+#avance:hover{
+  box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.12),0px 8px 8px 0px rgba(0,0,0,0.24);
+  transition: 0.2s;
+}
+
+#r4{
+  width: 100px;
+  height:100px;
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  background-color: #68e4ea;
+  border-radius: 50px;
+  box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.12),0px 2px 2px 0px rgba(0,0,0,0.24);
+}
+#r4:hover{
+  box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.12),0px 8px 8px 0px rgba(0,0,0,0.24);
+  transition: 0.2s;
+}
+#r3{
+  width: 100px;
+  height:100px;
+  position: fixed;
+  right: 140px;
+  top: 20px;
+  background-color: #fdffab;
+  border-radius: 50px;
+  box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.12),0px 2px 2px 0px rgba(0,0,0,0.24);
+}
+#r3:hover{
+  box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.12),0px 8px 8px 0px rgba(0,0,0,0.24);
+  transition: 0.2s;
+}
+#r2{
+  width: 100px;
+  height:100px;
+  position: fixed;
+  right: 260px;
+  top: 20px;
+  background-color: #53f5ae;
+  border-radius: 50px;
+  box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.12),0px 2px 2px 0px rgba(0,0,0,0.24);
+}
+#r2:hover{
+  box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.12),0px 8px 8px 0px rgba(0,0,0,0.24);
+  transition: 0.2s;
+}
+#r1{
+  width: 100px;
+  height:100px;
+  position: fixed;
+  right: 380px;
+  top: 20px;
+  background-color: #efbddc;
+  border-radius: 50px;
+  box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.12),0px 2px 2px 0px rgba(0,0,0,0.24);
+}
+#r1:hover{
+  box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.12),0px 8px 8px 0px rgba(0,0,0,0.24);
+  transition: 0.2s;
+}
+.title{
+  height: 72vh;
+  padding: 100px;
+  margin: none;
+  background-attachment: fixed;
+}
+.text{
+  height: 70vh;
+  padding: 100px;
+  margin: none;
+  background-attachment: fixed;
+}
+.next{
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #cecece;
+  border-radius: 50px;
+  box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.12),0px 2px 2px 0px rgba(0,0,0,0.24);
+
+}
+#next01{
+  position: absolute;
+  top:87vh;
+left: 50%;
+margin-left:-50px}
+#title01{
+  background-image: url(images/pinkbee.jpg);
+  background-position: center;
+  background-size: cover;
+}
+#title02{
+  background-image: url(images/greenbee.jpg);
+  background-position: center;
+  background-size: cover;
+
+}
+#title03{
+  background-image: url(images/yellowbee.jpg);
+  background-position: center;
+  background-size: cover;
+
+}
+#title04{
+  background-image: url(images/bluebee.jpg);
+  background-position: center;
+  background-size: cover;
+
+}
+.videoban{
+  height:400px;
+display: flex;
+vertical-align: middle;
+justify-content:center;
+}
+#videoban01{
+  background-color: #efbddc
+}
+#videoban02{
+  background-color: #53f5ae
+}
+#videoban03{
+  background-color: #fdffab
+}
+#videoban04{
+  background-color: #68e4ea
+}
+#next02{
+  position: absolute;
+  top:1600px;
+left: 50%;
+margin-left:-50px}
+video{
+  margin-top: -150px;
+  background-color: white;
+}
+html {
+  cursor: url("cursor.png"), default;
+
+}
+a{
+  cursor: url("cursor2.png"), pointer;
+}
+.download{
+  width: 100px;
+  height: 100px;
+  background-color: #cecece;
+  border-radius: 50px;
+  box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.12),0px 2px 2px 0px rgba(0,0,0,0.24);
+  margin-left: 50px;
+  margin-right: 50px
+}
+.download:hover{
+  box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.12),0px 8px 8px 0px rgba(0,0,0,0.24);
+  transition: 0.2s;
+  margin-left: 50px;
+  margin-right: 50px
+}
+.leftmenu{
+  width: 100px;
+  height: 100px;
+  background-color: #cecece;
+  border-radius: 50px;
+  box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.12),0px 2px 2px 0px rgba(0,0,0,0.24);
+
+}
+.leftmenu:hover{
+  box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.12),0px 8px 8px 0px rgba(0,0,0,0.24);
+  transition: 0.2s;
+}
+#buttons{
+display: flex;
+justify-content: center;
+margin-top: 50px;
+margin-bottom: 50px
+}
+a{
+text-decoration: none;
+color: black
+}
+
+
+@media (max-width:750px) {
+  .leftmenu{
+    display: none
+  }
+.title{
+padding:30px}
+.text{
+padding:30px}
+#next01{
+  top:73vh
+}
+#next02{
+  top:150vh
+}
+
+}
+::selection{
+  color: black;
+background-color: yellow}
